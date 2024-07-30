@@ -1,0 +1,3 @@
+[submodule "niji-game/Assets/Unity-Utilities"]
+	path = niji-game/Assets/Unity-Utilities
+	url = https://github.com/Ervean/unity-utils.git
