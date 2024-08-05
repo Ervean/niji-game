@@ -1054,6 +1054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FadeOutBackground
       objectReference: {fileID: 0}
+    - target: {fileID: 1960668403100556305, guid: 9f7ab35701ae5324e917d30c08e70a65, type: 3}
+      propertyPath: speed
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9185702714470385487, guid: 9f7ab35701ae5324e917d30c08e70a65, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
