@@ -11,8 +11,8 @@ namespace Ervean.Utilities.Player.Dash
         [SerializeField] private Rigidbody2D rb;
 
         [Header("Settings")]
-        [SerializeField] private float dashingPower = 24f;
-        [SerializeField] private float dashingTime = 0.2f;
+        [SerializeField] private float dashingPower = 50f;
+        [SerializeField] private float dashingTime = 0.1f;
         [SerializeField] private float dashingCooldown = 1f;
 
 
@@ -43,6 +43,11 @@ namespace Ervean.Utilities.Player.Dash
             EndedDash?.Invoke(this, new EndDashEventArgs());
             yield return new WaitForSeconds(dashingCooldown);
             canDash = true;
+        }
+
+        public void Initialize(DashInitializationArgs i)
+        {
+            this.rb = i.Rb;
         }
     }
 }

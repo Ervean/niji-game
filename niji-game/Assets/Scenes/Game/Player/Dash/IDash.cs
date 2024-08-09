@@ -6,6 +6,7 @@ namespace Ervean.Utilities.Player.Dash
 {
     public interface IDash 
     {
+        void Initialize(DashInitializationArgs i);
         bool CanDash { get; set; }
         bool IsDashing {  get; set; }
         IEnumerator StartDash();
@@ -14,6 +15,11 @@ namespace Ervean.Utilities.Player.Dash
         event EventHandler<EndDashEventArgs> EndedDash;
 
     }
+    public class DashInitializationArgs
+    {
+        public Rigidbody2D Rb;
+    }
+
 
     public class StartDashEventArgs
     {
