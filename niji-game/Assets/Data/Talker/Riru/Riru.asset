@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   talkerName: Riru
-  talkerDefault: {fileID: 0}
+  talkerDefault: {fileID: 2505595553242902559, guid: 744763977c984ef47b1dad8f11154ee5, type: 3}
   talkerMad: {fileID: 0}
   talkerSad: {fileID: 0}
   talkerHappy: {fileID: 0}
