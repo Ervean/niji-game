@@ -14,10 +14,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   settings:
-  - Message: 
+  - Message: "Hey there, adventurer! The name\u2019s Red. Welcome to a world where
+      danger lurks in every shadow and adventure calls your name. This world is brimming
+      with ancient dungeons, hidden treasures, and challenges that\u2019ll test every
+      ounce of your courage."
     RightTalker: -1
-    LeftTalker: -1
-    PrimaryTalker: 0
+    LeftTalker: 0
+    PrimaryTalker: 2
     RightTalkerEmotion: 0
     LeftTalkerEmotion: 0
     Chain: 0
+  - Message: "Here\u2019s how it works: You\u2019ll be diving into dungeons like
+      these, facing off against all sorts of creatures and overcoming traps. For
+      every victory and every challenge you conquer, you\u2019ll earn points. Trust
+      me, those points are your ticket to survival and success."
+    RightTalker: -1
+    LeftTalker: 0
+    PrimaryTalker: 2
+    RightTalkerEmotion: 0
+    LeftTalkerEmotion: 0
+    Chain: 0
+  - Message: "You can use your hard-earned points to upgrade my skills, making me
+      stronger, faster, and smarter. Or if you prefer, you can spend them on useful
+      items that\u2019ll help you tackle even the toughest of foes. It\u2019s all
+      about strategy and preparation."
+    RightTalker: -1
+    LeftTalker: 0
+    PrimaryTalker: 2
+    RightTalkerEmotion: 0
+    LeftTalkerEmotion: 0
+    Chain: 0
+  - Message: "So gear up, adventurer. The dungeons are waiting, and every corner
+      hides a new challenge. Remember, the deeper you go, the greater the rewards.
+      Let\u2019s see if you\u2019ve got what it takes to make it through and come
+      out on top. Ready to dive in? I know I am."
+    RightTalker: -1
+    LeftTalker: 0
+    PrimaryTalker: 2
+    RightTalkerEmotion: 0
+    LeftTalkerEmotion: 0
+    Chain: 0
+  - Message: "Let\u2019s get started. The adventure awaits."
+    RightTalker: -1
+    LeftTalker: 0
+    PrimaryTalker: 2
+    RightTalkerEmotion: 0
+    LeftTalkerEmotion: 0
+    Chain: 1

@@ -767,6 +767,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3749991859941327304, guid: bd6c92621fc9a4140a5cf961ce40ebbe, type: 3}
   m_PrefabInstance: {fileID: 1791885510}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2090283439 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6564291428418826977, guid: 8a9b59cc2687d1b408088acd95360658, type: 3}
+  m_PrefabInstance: {fileID: 2463468876197319833}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c705e41a3ffa941a8ddb67d07c7cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &512821639530282533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1269,6 +1280,10 @@ PrefabInstance:
       propertyPath: db
       value: 
       objectReference: {fileID: 542648717}
+    - target: {fileID: 3580343369082717411, guid: 360a4c2463c1b474ba5e340de98d57ad, type: 3}
+      propertyPath: conversationDatabase
+      value: 
+      objectReference: {fileID: 2090283439}
     - target: {fileID: 4176638915713950367, guid: 360a4c2463c1b474ba5e340de98d57ad, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
