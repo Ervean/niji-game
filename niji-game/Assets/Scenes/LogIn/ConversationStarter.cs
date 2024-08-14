@@ -11,13 +11,19 @@ namespace Ervean.NijiGame.Login
         [SerializeField] private TalkingManager talkingManager;
         private ConversationDatabase conversationDatabase;
 
+
+        private static bool isConsumed = false;
         private void Awake()
         {
             conversationDatabase = ConversationDatabase.instance;
-            foreach(TalkingSettings ts in conversationDatabase.GetConversation(0).Talking)
+            if (!isConsumed)
             {
-                talkingManager.Talk(ts);
+                foreach (TalkingSettings ts in conversationDatabase.GetConversation(0).Talking)
+                {
+                    talkingManager.Talk(ts);
+                }
             }
+            isConsumed = true;
         }
     }
 }

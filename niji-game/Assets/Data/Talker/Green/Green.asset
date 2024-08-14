@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ffbebcbcc335f446b4ea17b41521e2d, type: 3}
-  m_Name: Red
+  m_Name: Green
   m_EditorClassIdentifier: 
   id: 0
-  talkerName: Red
-  talkerDefault: {fileID: 2043347943081881620, guid: 66004db15dc761b40aed6a52ef428f71, type: 3}
+  talkerName: Green
+  talkerDefault: {fileID: 8152658819384960721, guid: 1950fea53dcf5f4449f973febf84f6ce, type: 3}
   talkerMad: {fileID: 0}
   talkerSad: {fileID: 0}
   talkerHappy: {fileID: 0}
-  colorTheme: {r: 0.5764706, g: 0.12941177, b: 0.16078432, a: 1}
+  colorTheme: {r: 0.33333334, g: 0.3803922, b: 0.2392157, a: 1}

@@ -8,6 +8,7 @@ namespace Ervean.NijiGame.Login
 {
     public class ButtonListeners : MonoBehaviour
     {
+        [SerializeField] private SceneSwitcher _sceneSwitcher;
         [SerializeField] private Button buttonStart;
         [SerializeField] private Button buttonSettings;
         [SerializeField] private Button buttonAbout;
@@ -27,7 +28,7 @@ namespace Ervean.NijiGame.Login
 
         private void ButtonStartClicked()
         {
-            SceneSwitcher.instance.SwitchScene(SceneNames.CharacterSelection);
+            _sceneSwitcher.SwitchScene(SceneNames.CharacterSelection);
         }
 
         private void ButtonSettingsClicked()

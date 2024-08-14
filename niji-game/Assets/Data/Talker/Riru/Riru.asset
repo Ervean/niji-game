@@ -18,3 +18,4 @@ MonoBehaviour:
   talkerMad: {fileID: 0}
   talkerSad: {fileID: 0}
   talkerHappy: {fileID: 0}
+  colorTheme: {r: 1, g: 1, b: 1, a: 1}

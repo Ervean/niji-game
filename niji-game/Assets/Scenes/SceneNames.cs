@@ -8,5 +8,7 @@ namespace Ervean.NijiGame
         public const string Login = "Login";
         public const string CharacterSelection = "Home";
         public const string Game = "Game";
+        public const string Acitivites = "Activities";
+        public const string DungeonSelection = "DungeonSelection";
     }
 }
